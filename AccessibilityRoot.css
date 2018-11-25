@@ -1,0 +1,6 @@
+.root:not(.userIsTabbing) button:focus,
+.root:not(.userIsTabbing) input:focus,
+.root:not(.userIsTabbing) select:focus,
+.root:not(.userIsTabbing) textarea:focus {
+    outline: none;
+}
