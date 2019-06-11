@@ -1,6 +1,12 @@
 .root:not(.userIsTabbing) button:focus,
 .root:not(.userIsTabbing) input:focus,
 .root:not(.userIsTabbing) select:focus,
-.root:not(.userIsTabbing) textarea:focus {
-    outline: none;
+.root:not(.userIsTabbing) textarea:focus,
+.root:not(.userIsTabbing) .customFocusableClass:focus {
+  outline: none;
+}
+
+.customFocusableClass:focus {
+  outline: #0f90e6 auto 5px;
+  outline: -webkit-focus-ring-color auto 5px;
 }
